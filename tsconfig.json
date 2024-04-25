@@ -17,7 +17,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@celom/proxio": [
+      "@naturealpha/proxio": [
         "src/index.ts"
       ]
     }

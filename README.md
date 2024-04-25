@@ -1,4 +1,4 @@
-# @celom/proxio
+# @naturealpha/proxio
 
 Proxio combines the power of Jotai state management with TypeScript to provide a simple and efficient way to handle asynchronous requests in a React application.
 
@@ -9,7 +9,7 @@ In the code examples provided, you can see how Proxio is used with React Suspens
 To install Proxio, you can use npm or yarn by running the following command:
 
 ```
-npm install @celom/proxio
+npm install @naturealpha/proxio
 ```
 
 ### Consider the following ES module:
@@ -86,7 +86,7 @@ The result is stored in the `posts` variable. Depending on the state of `posts`,
 To install, you can use npm or yarn:
 
 ```bash
-npm install @celom/proxio
+npm install @naturealpha/proxio
 ```
 
 ## License
