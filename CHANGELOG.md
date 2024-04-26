@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.3
+
+### Patch Changes
+
+- add token to setup-node
+
 ## 0.3.2
 
 ### Patch Changes
