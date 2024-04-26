@@ -1,6 +1,6 @@
 {
   "name": "@naturealpha/proxio",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "A React hook that caches async method responses with Jotai.",
   "author": "Carlos Mimoso",
   "keywords": [
@@ -65,6 +65,6 @@
     "type": "git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@naturealpha:registry": "https://npm.pkg.github.com/"
   }
 }

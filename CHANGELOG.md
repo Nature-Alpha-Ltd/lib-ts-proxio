@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.8
+
+### Patch Changes
+
+- add scope to registry
+
 ## 0.3.7
 
 ### Patch Changes
