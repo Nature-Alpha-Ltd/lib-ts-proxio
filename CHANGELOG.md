@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.19
+
+### Patch Changes
+
+- add git extension to git repository
+
 ## 0.3.18
 
 ### Patch Changes
