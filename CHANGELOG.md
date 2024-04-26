@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.9
+
+### Patch Changes
+
+- registry... again...
+
 ## 0.3.8
 
 ### Patch Changes
