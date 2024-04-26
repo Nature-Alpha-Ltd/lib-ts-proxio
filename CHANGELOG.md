@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.1
+
+### Patch Changes
+
+- change github action publish registry
+
 ## 0.3.0
 
 ### Minor Changes
