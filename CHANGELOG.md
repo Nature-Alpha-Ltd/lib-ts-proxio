@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.10
+
+### Patch Changes
+
+- added scope to publish workflow
+
 ## 0.3.9
 
 ### Patch Changes
