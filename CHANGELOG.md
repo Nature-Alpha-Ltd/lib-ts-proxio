@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.2
+
+### Patch Changes
+
+- add new token
+
 ## 0.3.1
 
 ### Patch Changes
