@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.18
+
+### Patch Changes
+
+- add token to npmrc file
+
 ## 0.3.17
 
 ### Patch Changes
