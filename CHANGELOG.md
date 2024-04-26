@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.17
+
+### Patch Changes
+
+- add npmrc file
+
 ## 0.3.16
 
 ### Patch Changes
