@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.7
+
+### Patch Changes
+
+- slash
+
 ## 0.3.6
 
 ### Patch Changes
