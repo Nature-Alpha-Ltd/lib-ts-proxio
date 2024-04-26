@@ -19,6 +19,7 @@ jobs:
           registry-url: https://npm.pkg.github.com
         env:
           NPM_LIB_TOKEN: ${{secrets.NPM_LIB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: npm install
       - name: Create Release Pull Request or Publish
         id: changesets
@@ -27,3 +28,4 @@ jobs:
           publish: npm run release
         env:
           NPM_LIB_TOKEN: ${{secrets.NPM_LIB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
