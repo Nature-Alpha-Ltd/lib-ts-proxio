@@ -13,12 +13,12 @@
   "license": "ISC",
   "scripts": {
     "build": "nx build --prod",
-    "lint": "nx lint",
-    "test": "nx test",
-    "prepack": "nx build",
     "ci": "nx run-many --target=lint,test,build --all",
+    "lint": "nx lint",
+    "prepack": "nx build",
+    "prepare": "npm run build",
     "release": "nx run-many --target=lint,test,build --all && changeset publish",
-    "prepare": "npm run build"
+    "test": "nx test"
   },
   "dependencies": {
     "jotai": "^2",
