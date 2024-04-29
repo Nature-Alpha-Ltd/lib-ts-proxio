@@ -1,5 +1,11 @@
 # @naturealpha/proxio
 
+## 0.3.20
+
+### Patch Changes
+
+- add prepare script
+
 ## 0.3.19
 
 ### Patch Changes

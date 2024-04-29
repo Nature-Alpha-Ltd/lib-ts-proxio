@@ -1,6 +1,6 @@
 {
   "name": "@naturealpha/proxio",
-  "version": "0.3.19",
+  "version": "0.3.20",
   "description": "A React hook that caches async method responses with Jotai.",
   "author": "Carlos Mimoso",
   "keywords": [
@@ -17,7 +17,8 @@
     "test": "nx test",
     "prepack": "nx build",
     "ci": "nx run-many --target=lint,test,build --all",
-    "release": "nx run-many --target=lint,test,build --all && changeset publish"
+    "release": "nx run-many --target=lint,test,build --all && changeset publish",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "jotai": "^2",

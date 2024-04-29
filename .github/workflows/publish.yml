@@ -1,31 +1,31 @@
-name: Publish
+# name: Publish
 
-on:
-  # release:
-  #   types: [created]
-  push:
-    branches:
-      - '*'
+# on:
+#   # release:
+#   #   types: [created]
+#   push:
+#     branches:
+#       - '*'
 
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-    permissions: write-all
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com/
-          scope: '@naturealpha'
-      - run: npm install
-      - name: Create Release Pull Request or Publish
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          publish: npm run release
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          # NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-          # NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+# jobs:
+#   publish:
+#     runs-on: ubuntu-latest
+#     permissions: write-all
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 16
+#           registry-url: https://npm.pkg.github.com/
+#           scope: '@naturealpha'
+#       - run: npm install
+#       - name: Create Release Pull Request or Publish
+#         id: changesets
+#         uses: changesets/action@v1
+#         with:
+#           publish: npm run release
+#         env:
+#           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+#           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+#           # NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+#           # NPM_TOKEN: ${{secrets.NPM_TOKEN}}
